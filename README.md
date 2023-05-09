@@ -1,9 +1,6 @@
-# quarkus-observability
+# quarkus-db
 
-This project demonstrates how to add Observability to your application with OpenTelemetry and Micrometer.
-
-If you want to learn more about Quarkus & OpenTelemetry, go here: https://quarkus.io/guides/opentelemetry
-If you want to learn more about Quarkus & Micrometer Metrics used in this project, go here: https://quarkus.io/guides/micrometer
+This project demonstrates how to add a database and build containers
 
 
 ## Running the application in dev mode
