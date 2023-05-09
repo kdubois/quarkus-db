@@ -2,7 +2,6 @@ package com.redhat.developers;
 
 import java.util.List;
 
-import io.micrometer.core.annotation.Timed;
 import io.quarkus.logging.Log;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
@@ -15,7 +14,6 @@ public class FruitResource {
     
     @GET
     @Produces(MediaType.APPLICATION_JSON) 
-    @Timed
     public List<Fruit> getFruits(@QueryParam("season") String season) {
         if (season != null ) {
             return Fruit.findBySeason(season);
