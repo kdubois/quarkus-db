@@ -13,6 +13,6 @@ public class GreetingResource {
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
         Log.info("hello!");
-        return "Pozdrav Hrvatska 🇭🇷!";
+        return "Hello!!!";
     }
 }

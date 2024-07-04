@@ -12,6 +12,6 @@ public class Fruit extends PanacheEntity {
     public String season;
 
     public static Uni<List<Fruit>> findBySeason(String season) {
-        return find("season", season).list();
+        return find("upper(season)", season.toUpperCase()).list();
     }
 }

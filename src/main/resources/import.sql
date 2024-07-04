@@ -8,3 +8,4 @@ INSERT INTO Fruit(id,name,season) VALUES (nextval('fruit_sequence'),'Banana','Su
 INSERT INTO Fruit(id,name,season) VALUES (nextval('fruit_sequence'),'Watermelon','Summer');
 INSERT INTO Fruit(id,name,season) VALUES (nextval('fruit_sequence'),'Apple','Fall');
 INSERT INTO Fruit(id,name,season) VALUES (nextval('fruit_sequence'),'Pear','Fall');
+ALTER SEQUENCE fruit_seq RESTART WITH 10;
